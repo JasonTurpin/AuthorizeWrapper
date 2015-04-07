@@ -1,0 +1,5 @@
+{
+	"require": {
+		"authorizenet/authorizenet": "dev-master"
+	}
+}
