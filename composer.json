@@ -1,5 +1,9 @@
 {
-	"require": {
-		"authorizenet/authorizenet": "dev-master"
-	}
+    "require": {
+        "authorizenet/authorizenet": "dev-master"
+    },
+    "autoload": {
+        "files"   : ["constants/constants.php"],
+        "classmap": ["lib/Helper.php", "lib/AuthorizeWrapper.php"]
+    }
 }
